@@ -58,7 +58,7 @@ const LoginSignup = () => {
             To create a new account, please fill out the following form
           </p>
           <h1 className="my-2">
-            Already have an account? Click on the "Log In" button to access your
+            Already have an account? Click on the Log In button to access your
             account.
           </h1>
           <button
