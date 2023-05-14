@@ -170,7 +170,7 @@ const LoginSignup = () => {
           animate={{
             opacity: isLoggin ? [0, 0, 1] : [1, 0, 0],
             x: !isMobile ? (isLoggin ? [1000, 100, 0] : [0, 100, 1000]) : 0,
-            y: isMobile ? (isLoggin ? [-100, 200, 240] : [240, 200, -100]) : 0,
+            y: isMobile ? (isLoggin ? [-500, 200, 240] : [240, 200, -500]) : 0,
           }}
           transition={{ duration: 1, times: [0, 0.5, 1] }}
           className="sm:w-1/2 text-black sm:mx-8 relative sm:pr-4"
